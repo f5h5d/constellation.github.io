@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
-  background: url("bg.jpg");
-  background-repeat: no-repeat;
+  background: url("bg1.jpg");
+  background-repeat: repeat;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
+  min-width: 1920px;
+  min-height: 1080px;
 }
 
 .title {
-  height: 100vh;
-  width: 100vw;
-  font-size: 300px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-size: 10vw;
   color: white;
-  display: flex;
   text-align: center;
-  vertical-align: middle;
-  margin-top: 300px;
+  margin-top: 12%;
 }
 
 .backdrop {
@@ -28,16 +29,28 @@ body {
 .container {
   height: 100%;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  
+  /* display: flex;
+  justify-content: center; */
+}
+
+.hand-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 .hand {
-  position: absolute;
-  width: 80%;
+  /* position: absolute; */
+  display: block;
+  max-width: 1450px;
+  max-height: 943px;
+  width: auto;
   height: auto;
+  /* width: 70vw; */
+  /* height: auto; */
   transform: scaleX(-1);
-  top: -135px;
+  /* top: -135px; */
 }
 
 .fingerprint {
@@ -48,11 +61,13 @@ body {
 }
 
 .finger1 {
-  width: 80px;
-  height: 120px;
+  width: 60px;
+  height: 100px;
   transform: rotate(-30deg);
-  left: 315px;
-  top: 370px;
+  /* left: 315px;
+  top: 370px; */
+  left: 15vw;
+  top: 26vh;
 }
 
 .finger1:hover {
@@ -60,10 +75,13 @@ body {
 }
 
 .finger2 {
-  width: 100px;
+  max-width: 70px;
+  width: auto;
   transform: rotate(-15deg);
-  left: 500px;
-  top: 160px;
+  /* left: 500px;
+  top: 160px; */
+  left: 21.5vw;
+  top: 10vh;
 }
 
 .finger2:hover {
