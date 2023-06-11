@@ -43,9 +43,7 @@ body {
 .hand {
   /* position: absolute; */
   display: block;
-  max-width: 1450px;
-  max-height: 943px;
-  width: auto;
+  width: 900px;
   height: auto;
   /* width: 70vw; */
   /* height: auto; */
@@ -61,13 +59,12 @@ body {
 }
 
 .finger1 {
-  width: 60px;
-  height: 100px;
+  width: 40px;
+  height: 80px;
   transform: rotate(-30deg);
-  /* left: 315px;
-  top: 370px; */
-  left: 15vw;
-  top: 26vh;
+  left: 225px;
+  top: 160px;
+
 }
 
 .finger1:hover {
@@ -75,13 +72,11 @@ body {
 }
 
 .finger2 {
-  max-width: 70px;
+  max-width: 60px;
   width: auto;
   transform: rotate(-15deg);
-  /* left: 500px;
-  top: 160px; */
-  left: 21.5vw;
-  top: 10vh;
+  left: 300px;
+  top:60px;
 }
 
 .finger2:hover {
@@ -91,10 +86,10 @@ body {
 
 
 .finger3 {
-  width: 150px;
+  width: 80px;
   transform: rotate(-5deg);
-  left: 725px;
-  top: 120px;
+  left: 400px;
+  top: 50px;
 }
 
 .finger3:hover {
@@ -104,23 +99,23 @@ body {
 
 
 .finger4 {
-  width: 100px;
-  transform: rotate(14deg);
-  top: 225px;
-  left: 1030px;
+  width: 60px;
+  transform: rotate(10deg);
+  top: 90px;
+  left: 530px;
 }
 
 .finger4:hover {
-  transform: rotate(14deg) scale(1.5);
+  transform: rotate(10deg) scale(1.5);
 }
 
 
 
 .finger5 {
-  width: 100px;
+  width: 55px;
   transform: rotate(85deg);
-  left: 1280px;
-  top: 790px;
+  left: 650px;
+  top: 340px;
 }
 
 .finger5:hover {
@@ -129,10 +124,10 @@ body {
 
 
 .finger6 {
-  width: 200px;
+  width: 80px;
   transform: rotate(5deg);
-  right: 775px;
-  top: 220px;
+  right: 405px;
+  top: 100px;
 }
 
 
@@ -156,15 +151,15 @@ body {
   z-index: 100;
 
   position: absolute;
-  left: 460px;
-  top: 380px;
+  left: 310px;
+  top: 140px;
 }
 
 .box1 {
   position: absolute;
   width: 600px;
-  left: 500px;
-  top: 350px;
+  left: 340px;
+  top: 100px;
   background: white;
   border-radius: 10px;
   text-align: center;
@@ -179,15 +174,15 @@ body {
   z-index: 100;
 
   position: absolute;
-  left: 660px;
-  top: 250px;
+  left: 380px;
+  top: 90px;
 }
 
 .box2 {
   position: absolute;
   width: 600px;
-  left: 700px;
-  top: 185px;
+  left: 420px;
+  top: 50px;
   background: white;
   border-radius: 10px;
   text-align: center;
@@ -203,15 +198,15 @@ body {
   z-index: 100;
 
   position: absolute;
-  left: 910px;
-  top: 150px;
+  left: 490px;
+  top: 50px;
 }
 
 .box3 {
   position: absolute;
   width: 600px;
-  left: 950px;
-  top: 100px;
+  left: 530px;
+  top: 10px;
   background: white;
   border-radius: 10px;
   text-align: center;
@@ -226,15 +221,15 @@ body {
   z-index: 100;
 
   position: absolute;
-  left: 1210px;
-  top: 250px;
+  left: 610px;
+  top: 80px;
 }
 
 .box4 {
   position: absolute;
   width: 600px;
-  left: 1250px;
-  top: 185px;
+  left: 650px;
+  top: 40px;
   background: white;
   border-radius: 10px;
   text-align: center;
@@ -242,22 +237,22 @@ body {
 }
 
 .triangle5 {
-  border-top: 40px solid transparent;
-  border-bottom: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
   position: inherit; 
-  border-right:40px solid white; 
+  border-top:40px solid white; 
   z-index: 100;
 
   position: absolute;
-  left: 1490px;
-  top: 800px;
+  left: 650px;
+  top: 280px;
 }
 
 .box5 {
   position: absolute;
   width: 600px;
-  left: 1525px;
-  top: 750px;
+  left: 400px;
+  top: 60px;
   background: white;
   border-radius: 10px;
   text-align: center;
@@ -267,20 +262,19 @@ body {
 .triangle6 {
   border-top: 40px solid transparent;
   border-bottom: 40px solid transparent;
-  position: inherit; 
-  border-right:40px solid white; 
+  border-left: 40px solid white;
   z-index: 100;
 
   position: absolute;
-  left: 1810px;
-  top: 280px;
+  left: 740px;
+  top: 100px;
 }
 
 .box6 {
   position: absolute;
   width: 600px;
-  left: 1850px;
-  top: 220px;
+  left: 140px;
+  top: 60px;
   background: white;
   border-radius: 10px;
   text-align: center;
