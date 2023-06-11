@@ -32,31 +32,30 @@ body {
 }
 
 .idea {
-  font-size: 40px;
+  font-size: 1.5vw;
   color: white;
 }
 .quotes {
   width: 100vw;
-  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 .quote {
-  margin: 0 200px;
+  margin: 10px 200px;
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 1vw;
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 80px;
   color: white;
   text-align: center;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
   color: white;
   text-align: center;
   margin-bottom: 0;
@@ -66,5 +65,5 @@ p {
   color: white;
   text-align: justify;
   margin: 0 200px;
-  font-size: 40px;
+  font-size: 20px;
 }
