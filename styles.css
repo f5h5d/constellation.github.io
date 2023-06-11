@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  background: url("bg.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  height: 100vh;
+  width: 100vw;
+  font-size: 300px;
+  color: white;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 300px;
+}
+
+.backdrop {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.hand {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  transform: scaleX(-1);
+  top: -135px;
+}
+
+.fingerprint {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  z-index: 10;
+}
+
+.finger1 {
+  width: 80px;
+  height: 120px;
+  transform: rotate(-30deg);
+  left: 315px;
+  top: 370px;
+}
+
+.finger1:hover {
+  transform: rotate(-30deg) scale(1.5);
+}
+
+.finger2 {
+  width: 100px;
+  transform: rotate(-15deg);
+  left: 500px;
+  top: 160px;
+}
+
+.finger2:hover {
+  transform: rotate(-15deg) scale(1.5);
+}
+
+
+
+.finger3 {
+  width: 150px;
+  transform: rotate(-5deg);
+  left: 725px;
+  top: 120px;
+}
+
+.finger3:hover {
+  transform: rotate(-5deg) scale(1.5);
+}
+
+
+
+.finger4 {
+  width: 100px;
+  transform: rotate(14deg);
+  top: 225px;
+  left: 1030px;
+}
+
+.finger4:hover {
+  transform: rotate(14deg) scale(1.5);
+}
+
+
+
+.finger5 {
+  width: 100px;
+  transform: rotate(85deg);
+  left: 1280px;
+  top: 790px;
+}
+
+.finger5:hover {
+  transform: rotate(85deg) scale(1.5);
+}
+
+
+.finger6 {
+  width: 200px;
+  transform: rotate(5deg);
+  right: 775px;
+  top: 220px;
+}
+
+
+.finger6:hover {
+  transform: rotate(5deg) scale(1.5);
+}
+
+
+
+/* .finger:hover {
+  transform: scale(1.5);
+  z-index: 100;
+} */
+
+
+.triangle1 {
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  position: inherit; 
+  border-right:40px solid white; 
+  z-index: 100;
+
+  position: absolute;
+  left: 460px;
+  top: 380px;
+}
+
+.box1 {
+  position: absolute;
+  width: 600px;
+  left: 500px;
+  top: 350px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 100;
+}
+
+.triangle2 {
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  position: inherit; 
+  border-right:40px solid white; 
+  z-index: 100;
+
+  position: absolute;
+  left: 660px;
+  top: 250px;
+}
+
+.box2 {
+  position: absolute;
+  width: 600px;
+  left: 700px;
+  top: 185px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+
+.triangle3 {
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  position: inherit; 
+  border-right:40px solid white; 
+  z-index: 100;
+
+  position: absolute;
+  left: 910px;
+  top: 150px;
+}
+
+.box3 {
+  position: absolute;
+  width: 600px;
+  left: 950px;
+  top: 100px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.triangle4 {
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  position: inherit; 
+  border-right:40px solid white; 
+  z-index: 100;
+
+  position: absolute;
+  left: 1210px;
+  top: 250px;
+}
+
+.box4 {
+  position: absolute;
+  width: 600px;
+  left: 1250px;
+  top: 185px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.triangle5 {
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  position: inherit; 
+  border-right:40px solid white; 
+  z-index: 100;
+
+  position: absolute;
+  left: 1490px;
+  top: 800px;
+}
+
+.box5 {
+  position: absolute;
+  width: 600px;
+  left: 1525px;
+  top: 750px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.triangle6 {
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  position: inherit; 
+  border-right:40px solid white; 
+  z-index: 100;
+
+  position: absolute;
+  left: 1810px;
+  top: 280px;
+}
+
+.box6 {
+  position: absolute;
+  width: 600px;
+  left: 1850px;
+  top: 220px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
+.hide {
+  display: none !important;
+}
