@@ -27,9 +27,8 @@ const changeColorBack = (x) => {
 }
 
 
-const direct = () => {
-  location.assign("pages/1.html");
-  console.log('hi')
+const direct = (x) => {
+  location.assign("pages/" + x + ".html");
 }
 
 
@@ -48,4 +47,9 @@ finger5.addEventListener("mouseout", () => changeColorBack("5"))
 finger6.addEventListener("mouseout", () => changeColorBack("6"))
 
 
-finger1.addEventListener("click", direct)
+finger1.addEventListener("click", () => direct("1"))
+finger2.addEventListener("click", () => direct("2"))
+finger3.addEventListener("click", () => direct("3"))
+finger4.addEventListener("click", () => direct("4"))
+finger5.addEventListener("click", () => direct("5"))
+finger6.addEventListener("click", () => direct("6"))
