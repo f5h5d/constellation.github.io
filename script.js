@@ -7,7 +7,6 @@ const finger6 = document.getElementsByClassName("finger6")[0];
 const backdrop = document.getElementsByClassName("backdrop")[0];
 const resetBtn = document.getElementsByClassName("reset")[0];
 let numOfFingers = parseInt(localStorage.getItem("fingers") == null ? 1 : localStorage.getItem("fingers"));
-console.log(numOfFingers)
 
 for (let i = 1; i <= numOfFingers; i++) {
   document.getElementsByClassName("finger" + i)[0].classList.remove("hide")
